@@ -14,7 +14,7 @@ Check if the predicate (second argument) is truthy on all elements of a collecti
 
 Remember, you can access object properties through either dot notation or [] notation.
 
--True
+-truthCheck return True
 ```
 truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex") 
 ```
@@ -25,7 +25,7 @@ truthCheck([{"name": "Pete", "onBoat": true}, {"name": "Repeat", "onBoat": true,
 ```
 truthCheck([{"single": "yes"}], "single")
 ```
--False
+-truthCheck return False
 ```
 truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex") 
 ```
